@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "JSON Highlighter",
+  "version": "1.0.0",
+  "description": "Formats and highlights JSON documents that Chrome opens.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/content.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
