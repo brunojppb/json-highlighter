@@ -1,3 +1,5 @@
+<p align="center"><img src="icons/icon.svg" width="96" alt="JSON Highlighter icon"></p>
+
 # JSON Highlighter
 
 A small Chrome extension that formats and colors JSON documents. Open a JSON URL or a local `.json` file, and the extension shows it with indentation and the [Dracula](https://draculatheme.com) colors.
@@ -63,6 +65,7 @@ Chrome shows raw JSON inside a `<pre>` element. The script reads that text and c
 
 ```
 manifest.json       Chrome extension manifest (Manifest V3)
+icons/              Extension icon: SVG source and PNG sizes
 src/content.ts      Decides if the page is JSON, then starts the work
 src/format.ts       Splits JSON text into tokens and indents them
 src/render.ts       Builds the highlighted page and the Dracula styles
